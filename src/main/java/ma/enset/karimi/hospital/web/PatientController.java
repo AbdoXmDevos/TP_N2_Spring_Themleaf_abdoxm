@@ -1,11 +1,9 @@
-package ma.enset.hospital.web;
+package ma.enset.karimi.hospital.web;
 
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
-import lombok.Value;
-import ma.enset.hospital.entities.Patient;
-import ma.enset.hospital.repositories.PatientRepository;
-import org.apache.el.parser.ParseException;
+import ma.enset.karimi.hospital.entities.Patient;
+import ma.enset.karimi.hospital.repositories.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -18,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 @Controller
 @AllArgsConstructor

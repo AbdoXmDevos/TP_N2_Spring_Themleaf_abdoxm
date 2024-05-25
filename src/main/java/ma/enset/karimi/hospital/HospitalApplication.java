@@ -1,7 +1,7 @@
-package ma.enset.hospital;
+package ma.enset.karimi.hospital;
 
-import ma.enset.hospital.entities.Patient;
-import ma.enset.hospital.repositories.PatientRepository;
+import ma.enset.karimi.hospital.entities.Patient;
+import ma.enset.karimi.hospital.repositories.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

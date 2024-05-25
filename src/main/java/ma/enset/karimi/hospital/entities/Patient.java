@@ -1,4 +1,4 @@
-package ma.enset.hospital.entities;
+package ma.enset.karimi.hospital.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
